@@ -3,7 +3,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+.mb-10{
+    margin-bottom: 10px;
+}
 .custom-font-family{
     font-family: 'Montserrat', sans-serif;
 }
