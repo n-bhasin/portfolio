@@ -79,11 +79,16 @@ html{
     color: #ffffff !important;
     border-radius: 5px !important;
     background: linear-gradient(to right, #ac32e4 40%, #e833b0 100%)!important;
-    transition: all 1s ease-in-out;
+    transition: all .45s ease-out;
 }
 .btn:hover{
-    color: #070708;
-    background: #00B7F8 ;
+    color: #ffffff;
+    background: linear-gradient(to right, #ac32e4 40%, #e833b0 100%)!important;
+    /* background: #00B7F8 ; */
+}
+#git-link:hover{
+    color: #ffffff;
+    text-decoration: none;
 }
 .p-10{
     padding:10px;
@@ -137,5 +142,5 @@ html{
 }
 .custom-social-link:hover{
     color: #ffffff !important;
-    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%)
+    background: linear-gradient(to right, #ac32e4 20%, #e833b0 100%);
 }
